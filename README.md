@@ -43,7 +43,7 @@ Get All Users (GET /api/users): Sends a GET request to retrieve a list of every 
 
 Get a Single User (GET /api/users/:id): Replaces :id with a specific user's numeric ID to fetch their individual profile and posts.
 
-Create a User (POST /api/users): Sends a JSON body containing user details—such as { "name": "Jane Doe", "email": "jane@example.com" }—to register a brand new user.
+Create a User (POST /api/users): Sends a JSON body containing user details—such as { "name": "Jane Doe", "email": "jane@gmail.com" }—to register a brand new user.
 
 Update a User (PUT /api/users/:id): Targets a specific user ID with a JSON body containing the fields you wish to modify (like { "name": "Jane Smith" }).
 
